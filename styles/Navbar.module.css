@@ -43,6 +43,10 @@
     gap: 1ch;
 }
 
+.navbar__mobile {
+    display: block;
+}
+
 @media screen and (min-width: 875px) {
     .navbar__mobile {
         display: none;

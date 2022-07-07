@@ -1,7 +1,7 @@
 .sidebar {
     padding: 10px;
     height: 100vh;
-    background-color: var(--color-bg2);
+    background-color: var(--color-bg3);
     position: fixed;
     justify-content: center;
     overflow-y: auto;

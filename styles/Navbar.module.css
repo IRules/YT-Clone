@@ -8,6 +8,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background: rgba(29, 31, 34, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+
 }
 
 .navbar__search {

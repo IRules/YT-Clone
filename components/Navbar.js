@@ -5,6 +5,7 @@ import { Button, IconButton } from '@mui/material';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 
 function Navbar() {
   return (
@@ -12,6 +13,9 @@ function Navbar() {
       <div className={styles.navbar__search}>
         <SearchOutlinedIcon color="secondary" sx={{ fontSize: 25 }} />
         <input type="text" placeholder="Search" />
+        <IconButton color="secondary">
+          <KeyboardVoiceIcon color="secondary" sx={{ fontSize: 25 }} />
+        </IconButton>
       </div>
       <div className={styles.navbar__controls}>
         <IconButton color="secondary">

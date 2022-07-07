@@ -1,0 +1,24 @@
+.home {
+    padding: 7ch;
+    z-index: 2;
+}
+
+.home__test {
+    width: inherit;
+    height: 200vh;
+    background-color: var(--color-bg2);
+    margin-left: 5ch;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 875px) {
+    .home {
+        padding: 1ch;
+    }
+
+    .home__test {
+        margin-top: 5ch;
+        margin-left: 5ch;
+        border-radius: 0px 15px 15px 0px;
+    }
+}

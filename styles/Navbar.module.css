@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 874px) {
     .navbar__search {
         display: none;
     }

@@ -1,11 +1,4 @@
-import {
-  Avatar,
-  Badge,
-  Button,
-  Divider,
-  IconButton,
-  Typography,
-} from '@mui/material';
+import { Avatar, Badge, Button, Divider, IconButton } from '@mui/material';
 import React from 'react';
 import styles from '../styles/Sidebar.module.css';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';

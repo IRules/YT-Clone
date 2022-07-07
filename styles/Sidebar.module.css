@@ -2,11 +2,11 @@
     padding: 10px;
     height: 100vh;
     background-color: var(--color-bg2);
-    transition: 0.6s;
     position: fixed;
     justify-content: center;
     overflow-y: auto;
-    overflow-x: hidden  ;
+    overflow-x: hidden;
+    z-index: 1;
 }
 
 .sidebar__retracted {

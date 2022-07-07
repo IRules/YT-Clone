@@ -44,12 +44,12 @@
 }
 
 .navbar__mobile {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 875px) {
     .navbar__mobile {
-        display: block;
+        display: block !important;
     }
 
     .navbar__search {

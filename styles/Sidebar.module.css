@@ -1,0 +1,61 @@
+.sidebar {
+    padding: 10px;
+    height: 100vh;
+    background-color: var(--color-bg2);
+    transition: 0.6s;
+    position: fixed;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden  ;
+}
+
+.sidebar__retracted {
+    display: grid;
+    margin-top: 2ch;
+    gap: 1ch;
+}
+
+.sidebar__expanded {
+    display: grid;
+    margin-top: 2ch;
+    gap: 1ch;
+}
+
+.sidebar__expandedPrimary {
+    display: grid;
+}
+
+.sidebar__expandedPrimary > button {
+    justify-content: left;
+    text-transform: none;
+}
+
+.sidebar__expandedSubscriptions {
+    display: grid;
+    color: var(--color-text);
+}
+
+.sidebar__expandedSubscriptions > button {
+    justify-content: left;
+    text-transform: none;
+}
+
+.sidebar__expandedCategories {
+    display: grid;
+    color: var(--color-text);
+}
+
+.sidebar__expandedCategories > button {
+    justify-content: left;
+    text-transform: none;
+}
+
+.sidebar__expandedMiscellaneous {
+    display: grid;
+    color: var(--color-text);
+}
+
+.sidebar__expandedMiscellaneous > button {
+    justify-content: left;
+    text-transform: none;
+}

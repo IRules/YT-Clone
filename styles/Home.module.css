@@ -45,7 +45,7 @@
     z-index: 99999999;
 }
 
-.homeCard:hover {
+.homeCard__content:hover {
     z-index: 9999999;
     transform: scale(1.2);
     transition-delay: 0.5s;

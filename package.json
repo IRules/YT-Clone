@@ -16,6 +16,7 @@
     "axios": "^0.27.2",
     "busboy": "^1.6.0",
     "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-awesome-reveal": "^3.8.1",

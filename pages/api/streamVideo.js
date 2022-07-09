@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
     const videoId = req.query.videoId;
 
-    const videoPath = `./videos/${videoId}.mp4`;
+    const videoPath = `./videos/test-video.mp4`;
 
     const videoSizeInBytes = fs.statSync(videoPath).size;
 

@@ -169,6 +169,12 @@ function Sidebar() {
               &nbsp; Help
             </Button>
           </div>
+          <Divider
+            sx={{
+              backgroundColor: '#9fa2a8',
+            }}
+          />
+          <h6>© Toma Aris 2022</h6>
         </div>
       ) : (
         <div className={styles.sidebar__retracted}>

@@ -3,12 +3,12 @@
     height: 6ch;
     overflow-x: hidden;
     position: fixed;
-    z-index: 0;
+    z-index: 1;
     padding: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: rgba(29, 31, 34, 0.7);
+    background: rgba(29, 31, 34, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
@@ -27,6 +27,8 @@
     gap: 5px;
     color: var(--color-text);
 }
+
+
 
 .navbar__search > input {
     color: var(--color-text);

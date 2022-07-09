@@ -8,7 +8,7 @@ import { debounce } from 'lodash';
 function HomeCard() {
   const [hover, setHover] = React.useState(false);
   const verified = false;
-  const handleHandleEnter = debounce(() => setHover(true), 500);
+  const handleHandleEnter = debounce(() => setHover(true), 2000);
   const handleMouseLeave = () => {
     setHover(false);
     handleHandleEnter.cancel();
@@ -53,7 +53,7 @@ function HomeCard() {
             <div className={styles.homeCard__contentInfoText}>
               <Tooltip title="Delete">
                 <div className={styles.homeCard__contentInfoTextTitle}>
-                  <span>Titlesssssssssssssssssssssssssss</span>
+                  <span>Video Title</span>
                 </div>
               </Tooltip>
               <div className={styles.homeCard__contentInfoTextDescription}>

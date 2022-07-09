@@ -48,7 +48,7 @@
 .homeCard__content:hover {
     z-index: 9999999;
     transform: scale(1.2);
-    transition-delay: 0.5s;
+    transition-delay: 1s;
 }
 
 .homeCard__content {
@@ -73,7 +73,7 @@
 }
 
 .homeCard__contentInfoTextTitle {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         color: var(--color-text);
         text-overflow: ellipsis;
